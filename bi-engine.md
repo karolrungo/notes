@@ -4,3 +4,12 @@ You incur costs for the reservation that you create for BI Engine capacity. The 
 
 Reserving BI. Engine capacity:
 https://cloud.google.com/bigquery/docs/bi-engine-reserve-capacity#bq
+
+Terraform:
+```
+resource "google_bigquery_bi_reservation" "reservation" {
+    location   = "us-west2"
+    size   = "3000000000"
+}
+```
+TODO dynamic preferedTables
