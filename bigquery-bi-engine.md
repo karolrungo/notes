@@ -1,4 +1,4 @@
-BI engine is in-memory service in [[GCP]] that accelerates queries in [[BigQuery]] by caching the data that is used more frequently. It improves performance without manual tuning. 
+BI engine is in-memory service in [[gcp]] that accelerates queries in [[bigquery]] by caching the data that is used more frequently. It improves performance without manual tuning. 
 
 You incur costs for the reservation that you create for BI Engine capacity. The amount of data stored is constrained by the amount of capacity you purchase. To purchase BI Engine capacity, create a BI Engine reservation in the project where queries will be run.
 

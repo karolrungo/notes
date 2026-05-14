@@ -1,6 +1,6 @@
 USB ASP programmer usually has a 10-pin Kanda connector and uses SPI standard to write your program into chip memory:
 
-![350][kanda.png]]
+![[kanda.png|350]]
 
 You should connect each signal from the programmer to the corresponding pin of your microcontroller. The signals are NOT crossed so it means that you connect MOSI to MOSI, MISO to MISO etc.. 
 

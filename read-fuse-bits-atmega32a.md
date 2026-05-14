@@ -2,7 +2,7 @@
 TODO:
 What are fuse bits
 
-In order to read the fuse bits from your microcontroller you should first [[connect-USB-ASP-programmer-with-AVR-processor]]. Then run a below command:
+In order to read the fuse bits from your microcontroller you should first [[connect-usbasp-programmer-to-avr]]. Then run a below command:
 `avrdude -c usbasp -p m32 -B 10 -U lfuse:r:-:i -U hfuse:r:-:i`
 where `-p` specifies your chip type and `-B` slows SPI clock if necessary.
 
@@ -23,7 +23,7 @@ Writing 1 byte to output file <stdout>
 :00000001FF
 ```
 
-ATmega32A has 2 fuse bytes: lfuse (lower byte) and hfuse (higher byte). AVR prcessors use [[Intel-HEX-format]]
+ATmega32A has 2 fuse bytes: lfuse (lower byte) and hfuse (higher byte). AVR prcessors use [[intel-hex-format]]
 in this case
 ```
 lfuse = 0xE1 = 1110 0001

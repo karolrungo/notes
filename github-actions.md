@@ -63,5 +63,5 @@ Workflow (.github/workflows/xyz.yml)
 
 ## See also
 
-- [[CICD]]
+- [[ci-cd]]
 - [[YAML basics]]
