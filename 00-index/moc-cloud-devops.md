@@ -20,9 +20,8 @@ The hub for everything I'm learning about cloud platforms, CI/CD, and infrastruc
 
 ## Google Cloud Platform
 
-- [[gcp]] — _stub_
-- [[bigquery]] — _stub_
 - [[bigquery-bi-engine]] — in-memory accelerator for BigQuery, with Terraform example
+- _Future_: GCP fundamentals note, BigQuery overview note
 
 ## Open questions / next to learn
 

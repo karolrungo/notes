@@ -1,3 +1,9 @@
+---
+tags: [avr, recipe, hardware, usbasp, spi]
+status: solid
+created: 2026-05-14
+---
+
 USB ASP programmer usually has a 10-pin Kanda connector and uses SPI standard to write your program into chip memory:
 
 ![[kanda.png|350]]

@@ -1,3 +1,9 @@
+---
+tags: [avr, recipe, c, tooling, lsp, make]
+status: solid
+created: 2026-05-14
+---
+
 Lets assume that you have a simple Makefile to build your C program for avr chip:
 
 ```

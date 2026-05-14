@@ -1,3 +1,9 @@
+---
+tags: [avr, recipe, c, avr-gcc, avrdude]
+status: solid
+created: 2026-05-14
+---
+
 To compile a C program for an AVR chip you can user avr-gcc compiler
 ```
 avr-gcc -DF_CPU=8000000UL -mmcu=atmega32a -std=gnu99 main.c -o main.elf

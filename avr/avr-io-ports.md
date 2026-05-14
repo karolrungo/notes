@@ -1,3 +1,9 @@
+---
+tags: [avr, reference, c, registers, atmega32a]
+status: solid
+created: 2026-05-14
+aliases: [DDRx, PORTx, PINx]
+---
 
 # 🧠 AVR I/O Register Reference (ATmega32A)
 

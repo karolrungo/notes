@@ -1,5 +1,12 @@
-https://kubernetes.io/docs/concepts/configuration/liveness-readiness-startup-probes/
-## Startup probe 
+---
+tags: [cloud, kubernetes, concept, reliability]
+status: solid
+created: 2026-05-14
+source: "https://kubernetes.io/docs/concepts/configuration/liveness-readiness-startup-probes/"
+aliases: [liveness probe, readiness probe, startup probe]
+---
+
+## Startup probe 
 A startup probe verifies whether the application within a container is started. This can be used to adopt liveness checks on slow starting containers, avoiding them getting killed by the kubelet before they are up and running.
 **If such a probe is configured, it disables liveness and readiness checks until it succeeds.**
 This type of probe is only executed at startup, unlike liveness and readiness probes, which are run periodically.

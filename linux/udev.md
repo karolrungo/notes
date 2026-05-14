@@ -1,3 +1,10 @@
+---
+tags: [linux, concept, devices, hardware]
+status: solid
+created: 2026-05-14
+aliases: [udev rules]
+---
+
 `udev` is a device manager program in Linux that works dynamically.
 What it does
 1. **Detects** the new hardware via kernel events

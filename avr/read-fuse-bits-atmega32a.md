@@ -1,6 +1,11 @@
+---
+tags: [avr, recipe, atmega32a, fuse-bits, avrdude]
+status: learning
+created: 2026-05-14
+---
 
-TODO:
-What are fuse bits
+> [!todo] Open question
+> What are fuse bits actually controlling? (clock source, brown-out detection, lock bits)
 
 In order to read the fuse bits from your microcontroller you should first [[connect-usbasp-programmer-to-avr]]. Then run a below command:
 `avrdude -c usbasp -p m32 -B 10 -U lfuse:r:-:i -U hfuse:r:-:i`

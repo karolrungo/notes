@@ -1,3 +1,10 @@
+---
+tags: [avr, concept, file-format, embedded]
+status: solid
+created: 2026-05-14
+aliases: [Intel HEX, HEX format]
+---
+
 Intel HEX format is a object file format used to program that presents binary data in ASCII format.
 It is used to program microcontrollers, EPROM / FLASH memories etc. 
 

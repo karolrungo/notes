@@ -1,3 +1,8 @@
+---
+tags: [avr, recipe, hardware, arch-linux, usbasp]
+status: solid
+created: 2026-05-14
+---
 
 Plugin your USB ASP programmer into USB port and run a command in your terminal:
 ```
